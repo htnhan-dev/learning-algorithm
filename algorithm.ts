@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // - Algorithm: Bubble Sort
 const bubbleSort = (arr: number[]): number[] => {
   // Loop through all elements in the array
@@ -6,24 +5,10 @@ const bubbleSort = (arr: number[]): number[] => {
     // Loop through all elements in the array
     for (let j = 0; j < arr.length - i - 1; j++) {
       // Compare the current element with the next element
-=======
-const bubbleSort = (arr: number[]): number[] => {
-  console.log("✨🎀 ~ arr:", arr);
-  for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length - i - 1; j++) {
-      console.log("✨🎀 ~ arr[j]:", arr[j]);
-
-      console.log("✨🎀 ~ arr[j + 1]:", arr[j + 1]);
->>>>>>> ddb8bd633c8edd8d43109c2f8048a6e05640af2a
       if (arr[j] > arr[j + 1]) {
         let temp = arr[j];
         arr[j] = arr[j + 1];
         arr[j + 1] = temp;
-<<<<<<< HEAD
-=======
-
-        console.log("✨🎀 ~ arr after:", arr);
->>>>>>> ddb8bd633c8edd8d43109c2f8048a6e05640af2a
       }
     }
   }
@@ -31,7 +16,6 @@ const bubbleSort = (arr: number[]): number[] => {
   return arr;
 };
 
-<<<<<<< HEAD
 // - Algorithm: Selection Sort
 const selectionSort = (arr: number[]): number[] => {
   // Loop through all elements in the array
@@ -103,6 +87,3 @@ const quickSort = (arr: number[]): number[] => {
 
   return [...quickSort(left), pivot, ...quickSort(right)];
 };
-=======
-console.log(bubbleSort([5, 2, 7, 9]));
->>>>>>> ddb8bd633c8edd8d43109c2f8048a6e05640af2a
